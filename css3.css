@@ -1,0 +1,33 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: white;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: burlywood;
+    background-color: #588e60;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #588E60}
+
+.button:active {
+    background-color: #588E60;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border-radius: 2px;
+}
+.animated
+{
+    animation-delay: 5s;
+}

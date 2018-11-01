@@ -1,0 +1,85 @@
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: burlywood;
+    background-color: #588e60;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #588E60}
+
+.button:active {
+    background-color: #588E60;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border-radius: 2px;
+}
+
+
+@media (min-width: 640px) {
+    body {
+        background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+    }
+}
+.navbar {
+    /*margin-bottom: 0;*/
+    border-radius: 3em;
+    font-family: 'Indie Flower', cursive;
+
+}
+p
+{
+    color: #588E60;
+    font-size: larger;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set background 100% height */
+.sidenav {
+    padding-top: 20px;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: burlywood;
+    color: white;
+    padding: 15px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px)
+{
+    .sidenav
+    {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+
+h1
+{
+    background-color: tan;
+     color: #508e5a !important;
+    border-radius: 3em;
+    font-family: 'Indie Flower', cursive !important;
+
+}

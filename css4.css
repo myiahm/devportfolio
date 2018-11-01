@@ -1,0 +1,42 @@
+@media (min-width: 640px)
+{
+    body
+    {
+        background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+    }
+}
+h1
+{
+
+
+
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: burlywood;
+    background-color: #588e60;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #588E60}
+
+.button:active {
+    background-color: #588E60;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border-radius: 2px;
+}
+.animated
+{
+    animation-delay: 5s;
+}

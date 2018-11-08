@@ -8,11 +8,13 @@
         background-position: center;
         min-height: 100vh;
     }
+
+
+.navbar {
+    /*margin-bottom: 0;*/
+    border-radius: 3em;
+    font-family: 'Indie Flower', cursive;
 }
-h1
-{
-
-
 
 }
 .button {

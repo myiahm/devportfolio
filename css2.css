@@ -36,11 +36,12 @@
     font-family: 'Indie Flower', cursive;
 
 }
-p
+#h2
 {
-    color: #588E60;
-    font-size: larger;
-    font-family: 'Indie Flower', cursive;
+    color: black;
+    background-color: #508e5a;
+    border-radius: 1em;
+
 
 }
 

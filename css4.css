@@ -42,3 +42,34 @@
 {
     animation-delay: 5s;
 }
+h1
+{
+    color: black;
+    background-color: #508e5a;
+    border-radius: 1em;
+
+}
+h3
+{
+    color: black;
+    background-color: white;
+    border-radius: 1em;
+    font-family: 'Courgette', cursive;
+
+}
+p
+{
+    color: black;
+    background-color: gray;
+    border-radius: 1em;
+    font-family: 'Courgette', cursive;
+
+}
+h4
+{
+    color: black;
+    background-color: white;
+    border-radius: 1em;
+    font-family: 'Courgette', cursive;
+
+}

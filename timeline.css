@@ -46,14 +46,14 @@
     .main-timeline5 .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content{width:100%;float:none;border-radius:0 0 20px 20px;text-align:center;padding:25px 20px;margin:0 auto}
     .main-timeline5 .timeline-content:before,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{width:15px;height:25px;position:absolute;top:-22px;left:50%;z-index:-1;transform:translate(-50%,0)}
 }
-da
+a
 {
-    color: #588E60;
+    background-color: rgba(80,142,90,.5);
 }
 h3
 {
     color: black;
-    background-color: #508e5a;
+    background-color: rgba(80,142,90,.8);
     border-radius: 1em;
 
 }

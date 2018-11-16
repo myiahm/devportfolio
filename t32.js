@@ -31,7 +31,7 @@ function clickedSquare()
         if (this.innerHTML === "") {
             this.innerHTML = "O";
             this.setAttribute('disabled', 'disabled');
-            player_one = 1
+            player_one = 1;
             moveCount++;
             if(!checkWinner()){
                 isCat();

@@ -115,7 +115,7 @@ function randomShuffle() {
         if (player1Deck[i].cardNumber < player2Deck[i].cardNumber) {
             document.getElementById("tie").innerHTML = "Player 2 is the WINNER!";
             document.getElementById("score1").innerHTML = player1Deck[i].cardNumber;
-            document.getElementById("cards").innerHTML = player1Deck[i].cardNumber + " - " + player2Deck[i].cardNumber;
+            document.getElementById("score2").innerHTML = player2Deck[i].cardNumber;
             console.log(player1Deck[i].cardNumber + " - " + player2Deck[i].cardNumber);
 
             p2score++;
@@ -123,10 +123,8 @@ function randomShuffle() {
         }
         else if (player1Deck[i].cardNumber > player2Deck[i].cardNumber) {
             document.getElementById("tie").innerHTML = "Player 1 is the WINNER!";
+            document.getElementById("score1").innerHTML = player1Deck[i].cardNumber;
             document.getElementById("score2").innerHTML = player2Deck[i].cardNumber;
-            document.getElementById("cards").innerHTML = player1Deck[i].cardNumber + " - " + player2Deck[i].cardNumber;
-
-
             console.log(player1Deck[i].cardNumber + " - " + player2Deck[i].cardNumber);
             p1score++;
             console.log("This is player 1 score: " + p1score)
